@@ -1,0 +1,15 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#content{
+  clear: both;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-left: 20%; 
+  margin-right: 20%;
+  border: 1px solid black;
+  margin-top: 12px;
+}
