@@ -12,3 +12,18 @@
   margin-right: 20%;
   margin-top: 12px;
 }
+
+
+#blog-block-container{
+  border: 1px solid #a89984;
+  border-radius: 10px;
+}
+
+#blog-block-title{
+  margin-left: 12px;
+}
+
+#content a:hover{
+  color: #d79921;
+}
+
