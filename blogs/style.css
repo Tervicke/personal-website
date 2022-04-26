@@ -63,6 +63,7 @@ table {
 
 .author{
     margin-bottom: 0px; 
+    display: none;
 }
 .date{
     margin-top: 0px; 
@@ -74,6 +75,7 @@ table {
     margin-right: 13%;
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 h2{
@@ -85,5 +87,3 @@ h2{
 #content h1{
     display: none;
 }
-
-
