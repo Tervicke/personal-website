@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-04-27 Wed 22:53 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Evolution of code editors</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Tervicke" />
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div>
+  <h1 id="heading">Tervicke</h1>
+</div>
+<div id="menu">
+  <table cellspacing="20">
+    <tr>
+      <td> <a href="../home.html"> home  <a/></td>
+      <td> <a href="../blog.html"> blog<a/></td>
+    </tr>
+  </table>
+</div>
+<div id="border">
+</div>
+
+<div id="content">
+<h1 class="title">Evolution of code editors</h1>
+
+<div id="outline-container-org5e75d5a" class="outline-2">
+<h2 id="org5e75d5a">Evolution of code editors</h2>
+<div class="outline-text-2" id="text-org5e75d5a">
+<p>
+Modern day text editors are a blessing to the new programmers and learners . This was not the case A few decades ago , In this article I will try to tell you a small history of the modern day code editors that i learned and how they evolved over the time .
+</p>
+
+<p>
+Lets first understand how computers were programmed before the code editors we know now existed . Early on, most programs were typed onto <a href="https://en.wikipedia.org/wiki/Punched_card">punched cards</a> - a machine had a keyboard and took blank pieces of thin cardboard with punched holes in it . It was miserable and Tedious . you can find more information about how punch cards used to work and about that time <a href="https://en.wikipedia.org/wiki/Computer_programming_in_the_punched_card_era">here</a>.
+</p>
+
+<p>
+<img src="images/Used_PunchCard.jpg" alt="Used_PunchCard.jpg" /> <br />
+punch card
+</p>
+
+<p>
+The information about the oldest text editor I could find was the <a href="https://en.wikipedia.org/wiki/QED_(text_editor)">qued</a>(quick editor) text editor . This editor gave rise to the new text editor ed . ed was written by ken thompson for the very famous unix operating sytem .  ed inspired many text editors one of which is vi . vi was written by Bill Joy in the year 1976 
+</p>
+
+<p>
+<img src="images/EdActive.jpg" alt="EdActive.jpg" /> <br />
+Ed text editor running on a system
+</p>
+
+<p>
+In the same year another text editor was released by the richard stallman for the <a href="https://www.gnu.org/home.en.html">GNU</a> project  called Emacs . <br />
+Fun fact I write &amp; maintain this blog on emacs using org mode <br />
+Intially Emacs was written in lisp and C but in the coming years another language called the elisp or emacs lisp was developed to configure emacs .Emacs went on to be one the most successful editors of that time .  If you have watched the movie the social network , mark zuckerberg uses the same editor to write facebook . along with facebook many other software like linux were written in emacs . You can read more about why emacs in such a great editor <a href="https://hackernoon.com/8-reasons-why-emacs-is-the-best-text-editor-for-programming-0w4o37ld">here</a> . 
+</p>
+
+<p>
+<img src="images/emacs.png" alt="emacs.png" />      <img src="images/vim.png" alt="vim.png" /> <br />
+Logos of emacs and vim respectively
+</p>
+
+<p>
+20 years into the future 1991 , the iconic text editor vim is born Vim stands for vi Improved .Vim improvements inculde extensive plugin management and support for 100s of programming language . VIm was originally started by bram moolenar but now with the use of <a href="https://github.com/vim/vim">vim's github repo</a> many people contribute to make vim better .  According to the 2021 <a href="https://insights.stackoverflow.com/survey/2021#most-popular-technologies-new-collab-tools">stack overflow developer survey</a> around 24.19% of programmers voted that they still use vim and i am glad to be a part of them . 
+</p>
+
+<p>
+its 1997 . Microsoft releases its own ide/text editor Visual studio . After 2000s the ERA of IDE's started Some of the famous IDE's that are extensively used till day were released . Some of them are Inteljji idea &amp;  eclipse which were released in 2001 along with other ide's like netbeans in 2000 and xcode for mac in 2003 .  Not only IDEs but some very famous text editors like notepad++ in 2003 and sublime text in 2008 were released . 
+I know while reading this post you were looking for that one text editor , suprisingly vs code is very late in the editors game but it did came with lsp and other useful features . vscode was released in 2015 making it of the youngest text editor still its the most used text editor today . 
+</p>
+
+<p>
+<img src="images/texteditors.png" alt="texteditors.png" /> <br />
+some of the modern text editors and IDEs
+</p>
+
+<p>
+This was a little little history about the code editors that we use in our daily life .  
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Tervicke</p>
+<p class="date">Created: 2022-04-27 Wed 22:53</p>
+</div>
+</body>
+</html>
