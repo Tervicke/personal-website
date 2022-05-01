@@ -18,6 +18,15 @@
 #content table{
   margin: 0 auto;
 }
-
-
-
+#footer span{
+  color:red;
+}
+#footer{
+ text-align: center; 
+ width:100%;
+ position: fixed;
+ left:0;
+ bottom:0;
+ color:#928374;
+ font-family: "Open Sans", sans-serif;
+}
