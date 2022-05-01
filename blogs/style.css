@@ -50,8 +50,8 @@ table {
 #content{
   clear: both;
   font-family: 'Open Sans', sans-serif;
-  margin-left: 13%;
-  margin-right: 13%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #content a{
@@ -86,3 +86,11 @@ h2{
 #content h1{
     display: none;
 }
+
+@media (min-width: 1000px) {
+  #content{
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+}
+
