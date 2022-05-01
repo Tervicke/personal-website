@@ -8,9 +8,15 @@
   clear: both;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  margin-left: 20%; 
-  margin-right: 20%;
+  margin-left: 3%; 
+  margin-right: 3%;
   margin-top: 12px;
+}
+@media (min-width: 1000px){
+  #content{
+    margin-right: 20%;
+    margin-left: 20%; 
+  }
 }
 
 
@@ -26,4 +32,3 @@
 #content a:hover{
   color: #d79921;
 }
-
