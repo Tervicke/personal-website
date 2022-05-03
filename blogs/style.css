@@ -77,14 +77,11 @@ table {
     font-weight: 600;
 }
 
-h2{
+#content h1{
+    font-size:24px;
     font-style: italic;
     font-weight: bold;
     color: #d79921;
-}
-
-#content h1{
-    display: none;
 }
 
 @media (min-width: 1000px) {

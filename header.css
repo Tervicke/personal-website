@@ -2,12 +2,12 @@ body{
   background-color: #282828;
   color: #a89984;
 }
-
 table {
   font-family: 'Open Sans', sans-serif;
   font-size:20;
   color: white;
 }
+
 #menu{
   float: right;
 }
