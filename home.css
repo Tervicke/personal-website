@@ -1,20 +1,12 @@
 #content{
   float:left;
   margin-top: 30px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   padding: 12px;
-  color: #d5c4a1;
+	padding-top:0px;
+	margin-top:10px;
 }
-@media (min-width: 1000px) {
-  #content {
-    margin-left: 27%;
-    margin-right: 27%;
-  }
-}
-#content a{
-  color: #d5c4a1;
-}
+
 #content table{
   margin: 0 auto;
 }
@@ -27,6 +19,21 @@
  position: fixed;
  left:0;
  bottom:0;
- color:#928374;
- font-family: "Open Sans", sans-serif;
+ color:#222222;
+}
+#hello-gif{
+	height:200px;
+	display:inline-block;
+	border:3px solid #303841;
+	border-radius:50%;
+}
+#gif-holder{
+	align-items:center;
+	text-align:center;
+}
+@media (min-width: 1000px) {
+  #content {
+    margin-left: 27%;
+    margin-right: 27%;
+  }
 }

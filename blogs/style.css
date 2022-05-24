@@ -33,16 +33,6 @@ table {
   color: #689d6a;
   float: left;
 }
-
-#border{
-  width:100%;
-  height:1px;
-  padding-top:0px;
-  background-color: white;
-  background-color: #a89984;
-  float:left;
-  margin-bottom: 20px;
-}
 .title{
   font-style: italic;
 }
@@ -95,4 +85,21 @@ table {
 img{
   max-width: 100%;
   height: auto;
+}
+
+@media (min-width: 1000px) {
+  #menu{
+		padding-right:20%;
+  }
+}
+
+@media (min-width: 100px){
+	#heading{
+		padding-left:20%;
+	}
+}
+
+#border{
+	margin-left:15%;
+	margin-right:15%;
 }
