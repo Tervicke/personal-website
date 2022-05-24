@@ -1,7 +1,5 @@
 let isDarkMode = false;
-console.log(isDarkMode)
-function log(){
-	console.log(isDarkMode)
+function switchMode(){
 	if(isDarkMode){
 		isDarkMode=false;
 		document.getElementsByTagName("body")[0].style.backgroundColor = '#eee';
@@ -10,7 +8,6 @@ function log(){
 		for(const a of a_tags){
 			a.style.color = '#121212';
 		}
-		document.getElementById("footer").style.color="#121212";
 		document.getElementById('hello-gif').style.border = "3px solid #121212"
 		document.getElementById('switch-mode-button').src = "images/moon.png"
 		document.getElementById('twitter').src='images/twitter_dark.png'
@@ -26,7 +23,6 @@ function log(){
 		for(const a of a_tags){
 			a.style.color = '#E6E6FA';
 		}
-		document.getElementById("footer").style.color="#E6E6FA";
 		document.getElementById('hello-gif').style.border = "3px solid #E6E6FA"
 		document.getElementById('switch-mode-button').src = "images/sun.png"
 		document.getElementById('twitter').src='images/twitter_light.png'
