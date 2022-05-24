@@ -14,9 +14,7 @@ table {
   float: right;
 	padding:0px;
 }
-
-#heading{
-  font-size: 30px;
+#heading{ font-size: 30px;
   padding-left: 5px;
   font-family: 'Caveat', cursive;
   margin: 1%;
@@ -52,4 +50,7 @@ a:hover {
 	#heading{
 		padding-left:20%;
 	}
+}
+#switch-mode-button:hover{
+	cursor:pointer;
 }
