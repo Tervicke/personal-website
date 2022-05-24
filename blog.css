@@ -1,12 +1,9 @@
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
 }
-
 #content{
   clear: both;
-  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   margin-left: 3%; 
   margin-right: 3%;
@@ -18,8 +15,6 @@
     margin-left: 20%; 
   }
 }
-
-
 #blog-block-container{
   border: 1px solid #a89984;
   border-radius: 10px;
@@ -39,7 +34,6 @@
  } 
 }
 
-
 #blog-block-title{
   margin-left: 12px;
 }
@@ -50,13 +44,10 @@
 #footer span{
   color:red;
 }
-
 #footer{
  text-align: center; 
  width:100%;
  position: fixed;
  left:0;
  bottom:0;
- color:#928374;
- font-family: "Open Sans", sans-serif;
 }

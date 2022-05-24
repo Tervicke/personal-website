@@ -8,7 +8,6 @@
 <link rel="icon" href="images/title_icon.png" type="image/icon type"> 
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script type="text/javascript" src="app.js"></script>
   </head>
   <body>
 	<div id="nav-placeholder"></div>
@@ -22,7 +21,7 @@
 				<br>
 				Welcome to my website , here I write blogs about my projects and get good at html and css .  <br>
 				Currently I am a high school student living in India . <br>
-				I &hearts; Coding , Anime & Linux  
+				I &hearts; Coding , Anime & Linux
           <table cellspacing="15" id="socials">
             <tr>
               <td> <a href="https://twitter.com/Tervicke" target="_blank"><img src="images/twitter_dark.png" alt="twitter icon"></a></td>
@@ -34,5 +33,10 @@
       <div id='footer'>
       <p >Made with	<span>&hearts;</span> by Amey patil</p>
       </div>
-  </body>
+			<script>
+				$(function(){
+									$("#nav-placeholder").load("nav.html");
+								});
+			</script>
+	</body>
 </html>
