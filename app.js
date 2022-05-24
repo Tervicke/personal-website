@@ -8,7 +8,6 @@ function switchMode(){
 		for(const a of a_tags){
 			a.style.color = '#121212';
 		}
-		document.getElementById('hello-gif').style.border = "3px solid #121212"
 		document.getElementById('switch-mode-button').src = "images/moon.png"
 		document.getElementById('twitter').src='images/twitter_dark.png'
 		document.getElementById('instagram').src='images/instagram_dark.png'
@@ -23,7 +22,6 @@ function switchMode(){
 		for(const a of a_tags){
 			a.style.color = '#E6E6FA';
 		}
-		document.getElementById('hello-gif').style.border = "3px solid #E6E6FA"
 		document.getElementById('switch-mode-button').src = "images/sun.png"
 		document.getElementById('twitter').src='images/twitter_light.png'
 		document.getElementById('instagram').src='images/instagram_light.png'
