@@ -4,14 +4,14 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: #eee;
   color: #121212;
-}
-table {
+} table {
   font-size:20;
 }
 
 #menu{
   float: right;
 	padding:0px;
+	margin-right:25px;
 }
 #heading{ 
 	font-size: 25px;
@@ -31,7 +31,7 @@ a{
 }
 
 a:hover {
-  color: #222222;
+	color:#EA168E !important;
 }
 
 @media (min-width: 1000px) {
