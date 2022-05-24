@@ -15,6 +15,7 @@
 	border-radius:50%;
 }
 #gif-holder{
+	clear:both;
 	align-items:center;
 	text-align:center;
 }
