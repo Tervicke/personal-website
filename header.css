@@ -7,7 +7,6 @@ body{
 }
 table {
   font-size:20;
-  color: white;
 }
 
 #menu{
@@ -25,7 +24,7 @@ table {
 }
 
 a{
-  color: #121212;
+  color: #121212; 
 	font-weight:500;
   text-decoration: none;
 }
