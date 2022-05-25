@@ -9,6 +9,7 @@
 }
 #hello-gif{
 	height:200px;
+	border-radius:50%;
 }
 #content p{
 	margin-bottom:0px;
