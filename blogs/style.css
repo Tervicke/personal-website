@@ -1,54 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
-  background-color: #282828;
-  color: #a89984;
+  font-family: 'Roboto', sans-serif;
+  background-color: #eee;
+  color: #121212;
+} 
+table {
+  font-size:20;
 }
 
-table {
-  font-family: 'Open Sans', sans-serif;
-  font-size:20;
-  color: white;
-}
 #menu{
   float: right;
 }
-
-#menu a{
-  color: #a89984;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-#menu a:hover {
-  color: #fbf1c7;
-}
-
-#heading{
-  font-size: 40px;
+#heading{ 
+	font-size: 25px;
   padding-left: 5px;
-  font-family: 'Caveat', cursive;
-  margin: 1%;
-  color: #689d6a;
-  float: left;
-}
-.title{
-  font-style: italic;
+  margin: auto;
+  float: left; 
+	color:#EA168E;
+	font-style:italic;
+  font-family: 'Rock Salt', cursive;
 }
 
+a{
+  color: #121212; 
+	font-weight:500;
+  text-decoration: none;
+	font-size:20px;
+}
+
+a:hover {
+	color:#EA168E !important;
+}
+
+@media (min-width: 1000px) {
+  #menu{
+		padding-right:20%;
+  }
+}
+
+@media (min-width: 1000px){
+	#heading{
+		padding-left:20%;
+	}
+}
+
+@media (min-width: 1000px){
+	#heading{
+		padding-left:20%;
+	}
+}
 #content{
   clear: both;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+	font-size:18px;
   margin-left: 5%;
   margin-right: 5%;
-	font-weight:700;
+	padding-top:10px;
 }
 
 #content a{
     color:#458588;
     font-style: italic;
-    font-weight: 700;
     target="_blank";
 }
 
@@ -64,15 +77,16 @@ table {
     margin-left: 13%;
     margin-right: 13%;
     font-style: italic;
-    font-family: 'Open Sans', sans-serif;
+		font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
 
 .title{
     font-size:24px;
     font-style: italic;
-    font-weight: bold;
-    color: #d79921;
+    font-weight: 500;
+		color:#121212;
+		margin-bottom:0px;
 }
 
 @media (min-width: 1000px) {
@@ -97,9 +111,4 @@ img{
 	#heading{
 		padding-left:20%;
 	}
-}
-
-#border{
-	margin-left:15%;
-	margin-right:15%;
 }
