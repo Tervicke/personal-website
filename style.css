@@ -14,5 +14,5 @@ p{
 	display:none;
 }
 .outline-text-3{
-	padding-left:0px;
+	padding-left:0px !important;
 }

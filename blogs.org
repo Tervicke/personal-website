@@ -1,0 +1,2 @@
+* Blogs
+#+INCLUDE:blogs/coding-a-app-to-help-me-maintain-a-diary.org
