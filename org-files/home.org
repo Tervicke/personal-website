@@ -11,10 +11,10 @@ I have coded is multiple things in multiple languages such as java , python , ja
 I use Lubuntu with Emacs or Vim as my main text editor .\\
 ** Socials
 The socials are in the order of highest usage from Left to Right .\\
-[[https://www.instagram.com/__ameyp/][file:./images/instagram.png]]
-[[https://twitter.com/Tervicke][file:./images/twitter.png]]
-[[https://discord.com/users/703288385833402441][file:./images/discord.png]]
-[[https://github.com/Tervicke][file:./images/github.png]] 
-[[https://www.reddit.com/user/Brokenhammer72][file:./images/reddit.png]] \\
+[[https://www.instagram.com/__ameyp/][file:../images/instagram.png]]
+[[https://twitter.com/Tervicke][file:../images/twitter.png]]
+[[https://discord.com/users/703288385833402441][file:../images/discord.png]]
+[[https://github.com/Tervicke][file:../images/github.png]] 
+[[https://www.reddit.com/user/Brokenhammer72][file:../images/reddit.png]] \\
 Fun Fact : I can talk about techonology All day .\\
 Feel Free to message me If you come across my site !! \\
