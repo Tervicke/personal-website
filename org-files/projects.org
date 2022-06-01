@@ -2,4 +2,4 @@
 Most of my projects are open sourced on [[https://github.com/Tervicke][my github]] , Click on the Image to visit the github page of the project.
 #+HTML:<hr>
  *Diary App* \\
-[[https://github.com/Tervicke/Diary-App][file:images/Diary_app_Project.jpeg]]  
+[[https://github.com/Tervicke/Diary-App][file:../images/Diary_app_Project.jpeg]]  

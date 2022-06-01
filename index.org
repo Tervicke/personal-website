@@ -3,6 +3,6 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/>
 #+OPTIONS:num:nil 
 #+SETUPFILE: export/setup/theme-darksun-local.setup
-#+INCLUDE: home.org
-#+INCLUDE: projects.org
-#+INCLUDE: blogs.org
+#+INCLUDE: org-files/home.org
+#+INCLUDE: org-files/projects.org
+#+INCLUDE: org-files/blogs.org
