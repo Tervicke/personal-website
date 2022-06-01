@@ -1,0 +1,20 @@
+* Home
+Hello and Welcome To my website \\
+** Website
+I wrote this website to write blogs and get good at html & css .\\
+The entire website is written with [[https://orgmode.org/][Emacs-orgMode]] with some changes to this  [[https://github.com/alphapapa/org-html-theme-darksun][theme]].
+** About Me
+I am Amey Patil or Tervicke .\\
+I am High School student living In India . \\
+I love to code Apps / websites and learn about low level systems & Linux , In my free time\\
+I have coded is multiple things in multiple languages such as java , python , javascript and c++ . \\
+I use Lubuntu with Emacs or Vim as my main text editor .\\
+** Socials
+The socials are in the order of highest usage from Left to Right .\\
+[[https://www.instagram.com/__ameyp/][file:./images/instagram.png]]
+[[https://twitter.com/Tervicke][file:./images/twitter.png]]
+[[https://discord.com/users/703288385833402441][file:./images/discord.png]]
+[[https://github.com/Tervicke][file:./images/github.png]] 
+[[https://www.reddit.com/user/Brokenhammer72][file:./images/reddit.png]] \\
+Fun Fact : I can talk about techonology All day .\\
+Feel Free to message me If you come across my site !! \\

@@ -1,0 +1,8 @@
+#+AUTHOR: Tervicke
+#+TITLE:Tervicke's website
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/>
+#+OPTIONS:num:nil 
+#+SETUPFILE: export/setup/theme-darksun-local.setup
+#+INCLUDE: home.org
+#+INCLUDE: projects.org
+#+INCLUDE: blogs.org
