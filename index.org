@@ -1,6 +1,7 @@
 #+AUTHOR: Tervicke
 #+TITLE:Tervicke's website
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/>
+#+HTML_HEAD: <script src="setup.js" defer></script>
 #+OPTIONS:num:nil 
 #+SETUPFILE: export/setup/theme-darksun-local.setup
 #+INCLUDE: org-files/home.org
