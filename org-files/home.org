@@ -7,7 +7,7 @@ The entire website is written with [[https://orgmode.org/][Emacs-orgMode]] with 
 I am Amey Patil or Tervicke .\\
 I am High School student living In India . \\
 I love to code Apps / websites and learn about low level systems & Linux , In my free time\\
-I have coded is multiple things in multiple languages such as java , python , javascript and c++ . \\
+I have tried all sorts of programming languages such as java , python , javascript and c++ . \\
 I use Lubuntu with Emacs or Vim as my main text editor .\\
 ** Socials
 The socials are in the order of highest usage from Left to Right .\\
