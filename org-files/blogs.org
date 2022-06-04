@@ -1,2 +1,3 @@
 * Blogs
-** [[file:~/code/personal-website/blogs/coding-a-app-to-help-me-maintain-a-diary.org][1. Coding a app to help me maintain a diary]]
+** [[../blogs/coding-a-app-to-help-me-maintain-a-diary.html][1. Coding a app to help me maintain a diary]]
+
