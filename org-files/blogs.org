@@ -1,3 +1,0 @@
-* Blogs
-** [[../blogs/coding-a-app-to-help-me-maintain-a-diary.html][ Coding a app to help me maintain a diary]]
-
