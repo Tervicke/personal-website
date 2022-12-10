@@ -1,0 +1,9 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="blogs.css"/>
+#+OPTIONS: toc:nil num:nil author:nil date:nil
+#+HTML_HEAD: <style type="text/css">
+#+HTML_HEAD:  .date{display:none}
+#+HTML_HEAD: </style>
+#+Title:  blogs
+* Blogs
+- [[./coding-a-app-to-help-me-maintain-a-diary.html][Coding a app to help me maintain a diary]]

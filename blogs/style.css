@@ -1,0 +1,23 @@
+.title{
+	display:none;
+}
+.date{
+	display:inline;
+	font-size:15px !important;
+}
+.author{
+	display:inline;
+	font-size:15px !important;
+}
+h2{
+	color:#444;
+}
+h3{
+	color:#527d9a;
+}
+h3 :hover{
+	color:
+}
+.outline-text-2{
+	margin:1%;
+}

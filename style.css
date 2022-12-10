@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+#intro{
+	margin:auto;
+    height: 500px;
+		width:39%;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+body{
+	font-family: 'Helvetica' sans-serif;
+}
+#intro *{
+	padding-left:3px;
+}
+#intro #title{
+	text-align:center;
+	font-weight:bold;
+	color:#444;
+}
+#text{
+	font-size:20px;
+	color:#444;
+}
+#text a{
+	color:#527d9a;
+	text-decoration:none;
+	font-style:italic;
+}
+#text a:hover{
+	color:#003355;
+	text-decoration:underline;
+}
+ul li{
+	display:inline; 
+}
+@media screen and (max-width: 480px) {
+	#intro{
+		width:350px;
+	}
+}
