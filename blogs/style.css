@@ -1,0 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+body{
+    font-family: 'Open Sans', sans-serif;
+		font-weight:bold;
+}
+#text a{
+	color:#527d9a;
+	text-decoration:none;
+	font-style:italic;
+}
+code{
+		font-weight:200;
+		font-size:15px;
+}
