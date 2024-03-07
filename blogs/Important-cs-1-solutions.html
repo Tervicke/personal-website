@@ -220,6 +220,104 @@ int main(){
 			</li>
 
 				<li>
+					<span>Write an Object Oriented Program in C++, to implement circle class to
+find area and circumference of a circle using functions void area(),
+void circum().</span>
+					<pre><code clas="language-cpp">
+#include &#x3C;iostream&#x3E;
+using namespace std;
+class circle{
+&#x9;int radius = 0;
+&#x9;public:
+&#x9;&#x9;circle(int r){
+&#x9;&#x9;&#x9;radius =r;
+&#x9;&#x9;}
+&#x9;&#x9;void area(){
+&#x9;&#x9;&#x9;int area = 3.14*radius*radius; 
+&#x9;&#x9;&#x9;cout &#x3C;&#x3C; &#x22;Area is &#x22; &#x3C;&#x3C; area &#x3C;&#x3C; endl;
+&#x9;&#x9;}
+&#x9;&#x9;void circum(){
+&#x9;&#x9;&#x9;int circ = 2*3.14*radius;
+&#x9;&#x9;&#x9;cout &#x3C;&#x3C; &#x22;circumference is &#x22; &#x3C;&#x3C; circ;
+&#x9;&#x9;}
+};
+int main(){
+&#x9;circle c1(5);
+&#x9;c1.area();
+&#x9;c1.circum();
+&#x9;return 0;
+}
+
+			</code></pre>
+			</li>
+
+				<li>
+					<span>Implement class temperature to convert degree Fahrenheit (F) to
+degree Celsius (C).
+Using formulae C =( F -32/9)*5.</span>
+					<pre><code clas="language-cpp">
+#include &#x3C;iostream&#x3E;
+using namespace std;
+class Temperature{
+&#x9;public:
+&#x9;&#x9;int To_Fahrenheit(int C){
+&#x9;&#x9;&#x9;return (C/5)+(32/9);
+&#x9;&#x9;}
+&#x9;&#x9;int TO_celsius(int F){
+&#x9;&#x9;&#x9; return ( F -32/9)*5;
+&#x9;&#x9;}
+};
+int main(){
+&#x9;Temperature t;
+&#x9;cout &#x3C;&#x3C; t.TO_celsius(80);
+&#x9;cout &#x3C;&#x3C; t.To_Fahrenheit(105);
+&#x9;return 0;
+}
+			</code></pre>
+			</li>
+
+				<li>
+					<span>Write a program in C++, to find the largest number in an array of 10
+integers.</span>
+					<pre><code clas="language-cpp">
+#include &#x3C;iostream&#x3E;
+using namespace std;
+int main(){
+&#x9;int ar[10] = {1 ,2 , 3 , 4 , 5 , 7 , 9 , 10 , 15 , 17};
+&#x9;int max = 0;
+&#x9;for(int i =0 ; i &#x3C; 10 ; i++){
+&#x9;&#x9;if(max &#x3C; ar[i]){
+&#x9;&#x9;&#x9;max = ar[i];
+&#x9;&#x9;}
+&#x9;}
+&#x9;cout &#x3C;&#x3C; &#x22;Max value in the array is &#x22; &#x3C;&#x3C; max; // 17
+&#x9;return 0;
+}
+
+			</code></pre>
+			</li>
+
+				<li>
+					<span>Write a program in C++, to calculate x^y , using the function
+void power (int, int);</span>
+					<pre><code clas="language-cpp">
+#include &#x3C;iostream&#x3E;
+using namespace std;
+void power(int x , int y ){
+&#x9;int ans = 1;
+&#x9;for(int i = 0 ; i &#x3C; y ; i++){
+&#x9;&#x9;ans = ans * x;&#x9;&#x9;
+&#x9;}
+&#x9;cout &#x3C;&#x3C; ans &#x3C;&#x3C; endl;
+}
+int main(){
+&#x9;power(2,5); // 32 output 
+&#x9;return 0;
+}
+			</code></pre>
+			</li>
+
+				<li>
 					<span></span>
 					<pre><code clas="language-cpp">
 			</code></pre>
