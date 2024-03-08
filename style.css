@@ -52,3 +52,19 @@ ul li{
 	width:150px;
 	border-radius:100%;
 }
+
+.header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px; 
+    text-align: left; 
+		    font-style: italic; }
+
+.header .logo {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 24px; 
+    font-weight: 200; 
+    font-family: Arial, sans-serif; 
+}
+
