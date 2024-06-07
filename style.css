@@ -1,7 +1,6 @@
-@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
 body{
     font-family: 'Open Sans', sans-serif;
-		font-weight:bold;
+		color:black;
 }
 #intro{
 	margin:auto;
@@ -13,25 +12,19 @@ body{
     left:0;
     right:0;
 }
-body{
-	font-family: 'Helvetica' sans-serif;
-}
-#intro *{
+#socials{
 	padding-left:3px;
 }
-#intro #title{
-	text-align:center;
-	font-weight:bold;
-	color:#444;
+#socials li{
+	margin:3px;
 }
 #text{
-	font-size:20px;
-	color:#444;
+	font-size:21px;
+	font-weight:500;
 }
 #text a{
-	color:#527d9a;
+	color:blue;
 	text-decoration:none;
-	font-style:italic;
 }
 #text a:hover{
 	color:#003355;
@@ -40,31 +33,22 @@ body{
 ul li{
 	display:inline; 
 }
-@media screen and (max-width: 480px) {
+#hello{
+	font-size:30px;
+	color:black;
+	padding:0px;
+	margin:0px;
+	font-weight:500;
+}
+@media (max-width: 767px) {
 	#intro{
-		width:350px;
+		margin:auto;
+			width:80%;
+			position:fixed;
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
 	}
-}
-#pfp{
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-	width:150px;
-	border-radius:100%;
-}
-
-.header {
-    background-color: #333; 
-    color: #fff; 
-    padding: 10px 20px; 
-    text-align: left; 
-		    font-style: italic; }
-
-.header .logo {
-    color: #fff; 
-    text-decoration: none; 
-    font-size: 24px; 
-    font-weight: 200; 
-    font-family: Arial, sans-serif; 
 }
 
